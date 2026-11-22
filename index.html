@@ -12,7 +12,7 @@
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -20,6 +20,8 @@ body{margin:0;background:#ffffff}
 a{color:#1E6BF0}a:hover{color:#0B1B33}
 section[id]{scroll-margin-top:16px}
 .hero-h1{font-size:52px}
+.brand{font-size:27px}
+@media (max-width:640px){.brand{font-size:22px}.brand-logo{width:44px;height:48px}}
 @media (max-width:640px){.hero-h1{font-size:34px}h2{font-size:28px!important}}
 input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset:1px}
 .pill{border-radius:999px!important}
@@ -38,7 +40,7 @@ details p{margin:12px 0 0 0;font-size:15px;line-height:1.65;color:#34404F}
 <div style="background:linear-gradient(90deg,#1FA54A,#139BD0,#1E6BF0);color:#ffffff;text-align:center;font-size:14px;font-weight:600;padding:10px 16px">Free 30-minute demo, on your own phone. <a href="#contact" style="color:#ffffff;text-decoration:underline">Book yours now →</a></div>
 <header style="background:#ffffff;border-bottom:1px solid #E3E9F1;position:sticky;top:0;z-index:10">
 <div style="max-width:1200px;margin:0 auto;padding:16px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
-<a href="#" style="display:flex;align-items:center;gap:10px;text-decoration:none"><svg width="40" height="44" viewBox="14 6 92 100" role="img" aria-label="Poviz Solutions logo">
+<a href="#" style="display:flex;align-items:center;gap:10px;text-decoration:none"><svg class="brand-logo" width="52" height="57" viewBox="14 6 92 100" role="img" aria-label="Poviz Solutions logo">
 <defs><linearGradient id="pvnav" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1E6BF0"></stop><stop offset="0.5" stop-color="#139BD0"></stop><stop offset="1" stop-color="#20B25A"></stop></linearGradient></defs>
 <path d="M28.1,76.8 A41 41 0 1 1 89.5,79.5" fill="none" stroke="url(#pvnav)" stroke-width="3.6" stroke-linecap="round"></path>
 <circle cx="24.5" cy="79" r="3.4" fill="#1E6BF0"></circle>
@@ -48,7 +50,7 @@ details p{margin:12px 0 0 0;font-size:15px;line-height:1.65;color:#34404F}
 <circle cx="89.5" cy="80.5" r="3.4" fill="#20B25A"></circle>
 <path d="M47,39.5 H57 A12.5 12.5 0 0 1 57,64.5 H47 M47,39.5 V85.5" fill="none" stroke="#1E6BF0" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"></path>
 <path d="M59,67 L69,86 L86,52" fill="none" stroke="#1FA54A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
-</svg><span style="font-family:Montserrat,Arial,sans-serif;font-weight:800;font-size:20px;letter-spacing:1px;color:#0B1B33">POVIZ <span style="color:#1FA54A;font-weight:700">SOLUTIONS</span></span></a>
+</svg><span class="brand" style="font-family:Montserrat,Arial,sans-serif;font-weight:900;letter-spacing:1px;color:#0B1B33">POVIZ <span style="color:#1FA54A;font-weight:900">SOLUTIONS</span></span></a>
 <nav style="display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:15px;font-weight:500">
 <a href="#products" style="color:#34404F;text-decoration:none;padding:10px 12px">Products</a>
 <a href="#solutions" style="color:#34404F;text-decoration:none;padding:10px 12px">Services</a>
