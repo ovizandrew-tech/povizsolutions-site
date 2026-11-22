@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://povizsolutions.com/sitemap.xml
