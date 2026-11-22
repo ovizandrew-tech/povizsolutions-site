@@ -22,12 +22,21 @@ section[id]{scroll-margin-top:16px}
 .hero-h1{font-size:52px}
 @media (max-width:640px){.hero-h1{font-size:34px}h2{font-size:28px!important}}
 input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset:1px}
+.pill{border-radius:999px!important}
+.lift{transition:transform .15s ease,box-shadow .15s ease}.lift:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(11,27,51,.12)}
+details{background:#ffffff;border-radius:16px;padding:18px 22px;border:1px solid #E3E9F1}
+details summary{cursor:pointer;font-weight:700;font-size:17px;color:#0B1B33;list-style:none;display:flex;justify-content:space-between;gap:12px}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"+";font-size:22px;color:#1FA54A;line-height:1}
+details[open] summary::after{content:"–"}
+details p{margin:12px 0 0 0;font-size:15px;line-height:1.65;color:#34404F}
 </style>
 </head>
 <body>
 <div style="font-family:Inter,Arial,sans-serif;color:#0B1B33;background:#ffffff">
 
-<header style="background:#ffffff;border-bottom:1px solid #E3E9F1">
+<div style="background:linear-gradient(90deg,#1FA54A,#139BD0,#1E6BF0);color:#ffffff;text-align:center;font-size:14px;font-weight:600;padding:10px 16px">Free 30-minute demo, on your own phone. <a href="#contact" style="color:#ffffff;text-decoration:underline">Book yours now →</a></div>
+<header style="background:#ffffff;border-bottom:1px solid #E3E9F1;position:sticky;top:0;z-index:10">
 <div style="max-width:1200px;margin:0 auto;padding:16px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
 <a href="#" style="display:flex;align-items:center;gap:10px;text-decoration:none"><svg width="40" height="44" viewBox="14 6 92 100" role="img" aria-label="Poviz Solutions logo">
 <defs><linearGradient id="pvnav" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1E6BF0"></stop><stop offset="0.5" stop-color="#139BD0"></stop><stop offset="1" stop-color="#20B25A"></stop></linearGradient></defs>
@@ -46,25 +55,25 @@ input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset
 <a href="#estates" style="color:#34404F;text-decoration:none;padding:10px 12px">For estates</a>
 <a href="#businesses" style="color:#34404F;text-decoration:none;padding:10px 12px">For businesses</a>
 <a href="#about" style="color:#34404F;text-decoration:none;padding:10px 12px">About</a>
-<a href="#contact" style="background:#1E6BF0;color:#ffffff;text-decoration:none;padding:12px 20px;border-radius:10px;font-weight:600">Book a demo</a>
+<a href="#contact" style="background:#1E6BF0;color:#ffffff;text-decoration:none;padding:12px 22px;border-radius:999px;font-weight:700;background:#1FA54A!important">Book a demo</a>
 </nav>
 </div>
 </header>
 
-<section style="background:#0B1B33;color:#ffffff">
+<section style="background:radial-gradient(circle at 85% 20%,#D7F5E1 0%,rgba(215,245,225,0) 45%),radial-gradient(circle at 10% 90%,#DCE8FF 0%,rgba(220,232,255,0) 50%),#F7FAFF;color:#0B1B33">
 <div style="max-width:1200px;margin:0 auto;padding:88px 24px 96px 24px;display:flex;flex-wrap:wrap;gap:56px;align-items:center">
 <div style="flex:1 1 520px;display:flex;flex-direction:column;gap:22px">
-<div style="font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:13px;letter-spacing:2.5px;color:#7FB2FF">SOFTWARE. DATA. SMART SYSTEMS.</div>
-<h1 class="hero-h1" style="margin:0;font-family:Montserrat,Arial,sans-serif;line-height:1.1;font-weight:800;text-wrap:balance">Smart systems for estates and businesses in Nigeria</h1>
-<p style="margin:0;font-size:19px;line-height:1.6;color:#C9D6EA;max-width:560px">We design, build, install and support software that makes estates safer and businesses easier to run, from gate access and visitor control to sales, stock and data dashboards.</p>
+<div style="font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:13px;letter-spacing:2.5px;color:#1FA54A">SOFTWARE. DATA. SMART SYSTEMS.</div>
+<h1 class="hero-h1" style="margin:0;font-family:Montserrat,Arial,sans-serif;line-height:1.1;font-weight:800;text-wrap:balance">Smart systems for <span style="color:#1E6BF0">estates</span> and <span style="color:#1FA54A">businesses</span> in Nigeria</h1>
+<p style="margin:0;font-size:19px;line-height:1.6;color:#34404F;max-width:560px">We design, build, install and support software that makes estates safer and businesses easier to run, from gate access and visitor control to sales, stock and data dashboards.</p>
 <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:6px">
-<a href="#contact" style="background:#1FA54A;color:#ffffff;text-decoration:none;padding:16px 26px;border-radius:12px;font-weight:700;font-size:16px">Book a free demo</a>
-<a href="https://wa.me/2347054964361" style="background:transparent;color:#ffffff;text-decoration:none;padding:15px 24px;border-radius:12px;font-weight:600;font-size:16px;border:1px solid #4E6385">Chat on WhatsApp</a>
+<a href="#contact" style="background:#1FA54A;color:#ffffff;text-decoration:none;padding:16px 28px;border-radius:999px;font-weight:700;font-size:16px;box-shadow:0 8px 20px rgba(31,165,74,.3)">Book a free demo</a>
+<a href="https://wa.me/2347054964361" style="background:#ffffff;color:#0B1B33;text-decoration:none;padding:15px 26px;border-radius:999px;font-weight:700;font-size:16px;border:2px solid #0B1B33">Chat on WhatsApp</a>
 </div>
-<div style="font-size:14px;color:#A9B8CF">Based in Warri, Delta State. Local installation and same-day support.</div>
+<div style="font-size:14px;color:#4A5666">Based in Warri, Delta State. Local installation and same-day support.</div>
 </div>
 <div style="flex:1 1 380px;display:flex;justify-content:center">
-<div style="width:100%;max-width:420px;background:#ffffff;border-radius:20px;padding:22px;color:#0B1B33;display:flex;flex-direction:column;gap:14px">
+<div style="width:100%;max-width:420px;background:#ffffff;border-radius:24px;padding:22px;box-shadow:0 24px 60px rgba(11,27,51,.16);color:#0B1B33;display:flex;flex-direction:column;gap:14px">
 <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-weight:700">Front gate</span><span style="font-size:13px;font-weight:600;color:#136B33;background:#E3F4E8;padding:4px 10px;border-radius:10px">Online</span></div>
 <div style="background:#F3F6FA;border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:6px">
 <div style="font-size:13px;color:#4A5666">Visitor arriving</div>
@@ -86,6 +95,16 @@ input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset
 </div>
 </section>
 
+<section style="background:#1FA54A;color:#ffffff">
+<div style="max-width:1200px;margin:0 auto;padding:36px 24px;display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:center">
+<div style="font-family:Montserrat,Arial,sans-serif;font-weight:800;font-size:30px;line-height:1.2">Easy to set up. Just as easy to use.</div>
+<div style="display:flex;flex-wrap:wrap;gap:10px;font-weight:700;font-size:14px">
+<span style="background:rgba(255,255,255,.18);padding:10px 16px;border-radius:999px">✓ Works on any phone</span>
+<span style="background:rgba(255,255,255,.18);padding:10px 16px;border-radius:999px">✓ Keeps working offline</span>
+<span style="background:rgba(255,255,255,.18);padding:10px 16px;border-radius:999px">✓ Local support in Warri</span>
+</div></div>
+</section>
+
 <section id="products" style="background:linear-gradient(180deg,#ffffff 0%,#F3F6FA 100%)">
 <div style="max-width:1200px;margin:0 auto;padding:88px 24px;display:flex;flex-direction:column;gap:40px">
 <div style="display:flex;flex-direction:column;gap:12px;max-width:760px">
@@ -94,7 +113,7 @@ input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset
 <p style="margin:0;font-size:18px;line-height:1.6;color:#34404F">Each product works on any phone, keeps running through network and power outages, and comes with local installation, training and support.</p>
 </div>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:22px">
-<article style="background:#ffffff;border-radius:22px;overflow:hidden;border:1px solid #E3E9F1;display:flex;flex-direction:column">
+<article class="lift" style="background:#ffffff;border-radius:22px;overflow:hidden;border:1px solid #E3E9F1;display:flex;flex-direction:column">
 <div style="background:#16803C;padding:22px 22px 0 22px">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px"><span style="font-family:Montserrat,Arial,sans-serif;font-weight:800;color:#ffffff;font-size:13px;letter-spacing:1.5px">POVIZ ESTATE</span><span style="font-size:11px;font-weight:700;color:#0F5A2A;background:#ffffff;padding:4px 10px;border-radius:10px">Available now</span></div>
 <div style="background:#ffffff;border-radius:14px 14px 0 0;padding:14px;min-height:190px;display:flex;flex-direction:column;gap:8px;color:#0B1B33;font-size:13px"><div style="display:flex;justify-content:space-between"><b>Front gate</b><span style="font-size:11px;font-weight:700;padding:3px 8px;border-radius:8px;background:#E3F4E8;color:#136B33">Online</span></div>
@@ -105,8 +124,8 @@ input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset
 <h3 style="margin:0;font-family:Montserrat,Arial,sans-serif;font-size:22px;color:#0B1B33">Smart estate security</h3>
 <p style="margin:0;font-size:15px;line-height:1.6;color:#34404F">Gate access, visitor control and estate management for gated communities.</p>
 <ul style="margin:4px 0 0 0;padding-left:18px;font-size:14px;line-height:1.5;color:#34404F"><li style="margin-bottom:6px">Car sticker, card and code access</li><li style="margin-bottom:6px">One-time visitor codes by WhatsApp/SMS</li><li style="margin-bottom:6px">Secured exits and emergency lockdown</li><li style="margin-bottom:6px">Service charges and staff in one app</li></ul>
-<a href="#contact" style="margin-top:auto;align-self:flex-start;background:#E3F4E8;color:#0F5A2A;text-decoration:none;padding:12px 18px;border-radius:10px;font-weight:700;font-size:14px">Book a demo →</a>
-</div></article><article style="background:#ffffff;border-radius:22px;overflow:hidden;border:1px solid #E3E9F1;display:flex;flex-direction:column">
+<a href="#contact" style="margin-top:auto;align-self:flex-start;background:#E3F4E8;color:#0F5A2A;text-decoration:none;padding:12px 20px;border-radius:999px;font-weight:700;font-size:14px">Book a demo →</a>
+</div></article><article class="lift" style="background:#ffffff;border-radius:22px;overflow:hidden;border:1px solid #E3E9F1;display:flex;flex-direction:column">
 <div style="background:#D9630B;padding:22px 22px 0 22px">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px"><span style="font-family:Montserrat,Arial,sans-serif;font-weight:800;color:#ffffff;font-size:13px;letter-spacing:1.5px">POVIZ GUARD</span><span style="font-size:11px;font-weight:700;color:#8A4300;background:#ffffff;padding:4px 10px;border-radius:10px">Available now</span></div>
 <div style="background:#ffffff;border-radius:14px 14px 0 0;padding:14px;min-height:190px;display:flex;flex-direction:column;gap:8px;color:#0B1B33;font-size:13px"><div style="display:flex;justify-content:space-between"><b>Night patrol · Site A</b><span style="font-size:11px;font-weight:700;padding:3px 8px;border-radius:8px;background:#FFF1E0;color:#8A4300">3 of 4 done</span></div>
@@ -118,8 +137,8 @@ input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset
 <h3 style="margin:0;font-family:Montserrat,Arial,sans-serif;font-size:22px;color:#0B1B33">Run a security company</h3>
 <p style="margin:0;font-size:15px;line-height:1.6;color:#34404F">Deploy, track and prove the work of every guard on every site.</p>
 <ul style="margin:4px 0 0 0;padding-left:18px;font-size:14px;line-height:1.5;color:#34404F"><li style="margin-bottom:6px">Guard deployment and shift rosters</li><li style="margin-bottom:6px">Patrol checkpoints with time stamps</li><li style="margin-bottom:6px">Incident reports with photos</li><li style="margin-bottom:6px">Client portal, invoicing and payroll</li></ul>
-<a href="#contact" style="margin-top:auto;align-self:flex-start;background:#FFF1E0;color:#8A4300;text-decoration:none;padding:12px 18px;border-radius:10px;font-weight:700;font-size:14px">Book a demo →</a>
-</div></article><article style="background:#ffffff;border-radius:22px;overflow:hidden;border:1px solid #E3E9F1;display:flex;flex-direction:column">
+<a href="#contact" style="margin-top:auto;align-self:flex-start;background:#FFF1E0;color:#8A4300;text-decoration:none;padding:12px 20px;border-radius:999px;font-weight:700;font-size:14px">Book a demo →</a>
+</div></article><article class="lift" style="background:#ffffff;border-radius:22px;overflow:hidden;border:1px solid #E3E9F1;display:flex;flex-direction:column">
 <div style="background:#6B3FD4;padding:22px 22px 0 22px">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px"><span style="font-family:Montserrat,Arial,sans-serif;font-weight:800;color:#ffffff;font-size:13px;letter-spacing:1.5px">MINUTEDESK</span><span style="font-size:11px;font-weight:700;color:#4A2299;background:#ffffff;padding:4px 10px;border-radius:10px">Available now</span></div>
 <div style="background:#ffffff;border-radius:14px 14px 0 0;padding:14px;min-height:190px;display:flex;flex-direction:column;gap:8px;color:#0B1B33;font-size:13px"><div style="display:flex;justify-content:space-between"><b>Incoming memo</b><span style="font-size:11px;font-weight:700;padding:3px 8px;border-radius:8px;background:#F0EBFF;color:#5B2DB0">AI summary</span></div>
@@ -131,8 +150,8 @@ input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset
 <h3 style="margin:0;font-family:Montserrat,Arial,sans-serif;font-size:22px;color:#0B1B33">Executive office workflow</h3>
 <p style="margin:0;font-size:15px;line-height:1.6;color:#34404F">A digital minute sheet for MDs, CEOs and their executive assistants.</p>
 <ul style="margin:4px 0 0 0;padding-left:18px;font-size:14px;line-height:1.5;color:#34404F"><li style="margin-bottom:6px">Memo intake from paper or email</li><li style="margin-bottom:6px">AI summaries of long documents</li><li style="margin-bottom:6px">Minuting and action tracking</li><li style="margin-bottom:6px">Overdue alerts and full audit trail</li></ul>
-<a href="#contact" style="margin-top:auto;align-self:flex-start;background:#F0EBFF;color:#4A2299;text-decoration:none;padding:12px 18px;border-radius:10px;font-weight:700;font-size:14px">Book a demo →</a>
-</div></article><article style="background:#ffffff;border-radius:22px;overflow:hidden;border:1px solid #E3E9F1;display:flex;flex-direction:column">
+<a href="#contact" style="margin-top:auto;align-self:flex-start;background:#F0EBFF;color:#4A2299;text-decoration:none;padding:12px 20px;border-radius:999px;font-weight:700;font-size:14px">Book a demo →</a>
+</div></article><article class="lift" style="background:#ffffff;border-radius:22px;overflow:hidden;border:1px solid #E3E9F1;display:flex;flex-direction:column">
 <div style="background:#1E6BF0;padding:22px 22px 0 22px">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px"><span style="font-family:Montserrat,Arial,sans-serif;font-weight:800;color:#ffffff;font-size:13px;letter-spacing:1.5px">POVIZ HUB</span><span style="font-size:11px;font-weight:700;color:#1450B8;background:#ffffff;padding:4px 10px;border-radius:10px">Available now</span></div>
 <div style="background:#ffffff;border-radius:14px 14px 0 0;padding:14px;min-height:190px;display:flex;flex-direction:column;gap:8px;color:#0B1B33;font-size:13px"><div style="display:flex;justify-content:space-between"><b>Today · All outlets</b><span style="font-size:11px;font-weight:700;padding:3px 8px;border-radius:8px;background:#E8F0FE;color:#1450B8">Live</span></div>
@@ -143,7 +162,7 @@ input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset
 <h3 style="margin:0;font-family:Montserrat,Arial,sans-serif;font-size:22px;color:#0B1B33">Business operations</h3>
 <p style="margin:0;font-size:15px;line-height:1.6;color:#34404F">Point of sale, stock and reports for restaurants, cafés and retail.</p>
 <ul style="margin:4px 0 0 0;padding-left:18px;font-size:14px;line-height:1.5;color:#34404F"><li style="margin-bottom:6px">Fast billing and receipts</li><li style="margin-bottom:6px">Kitchen tickets and stock</li><li style="margin-bottom:6px">Staff shifts and roles</li><li style="margin-bottom:6px">Live sales reports on your phone</li></ul>
-<a href="#contact" style="margin-top:auto;align-self:flex-start;background:#E8F0FE;color:#1450B8;text-decoration:none;padding:12px 18px;border-radius:10px;font-weight:700;font-size:14px">Book a demo →</a>
+<a href="#contact" style="margin-top:auto;align-self:flex-start;background:#E8F0FE;color:#1450B8;text-decoration:none;padding:12px 20px;border-radius:999px;font-weight:700;font-size:14px">Book a demo →</a>
 </div></article>
 </div>
 <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px;margin-top:20px">
@@ -176,7 +195,7 @@ input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset
 <p style="margin:0;font-size:13px;color:#4A5666">Screens shown are illustrations of each product.</p>
 </div>
 </section>
-<section id="solutions" style="background:#F3F6FA">
+<section id="solutions" style="background:#ffffff">
 <div style="max-width:1200px;margin:0 auto;padding:88px 24px;display:flex;flex-direction:column;gap:40px">
 <div style="display:flex;flex-direction:column;gap:12px;max-width:720px">
 <div style="font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:13px;letter-spacing:2.5px;color:#1E6BF0">WHAT WE DO</div>
@@ -184,50 +203,50 @@ input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset
 <p style="margin:0;font-size:18px;line-height:1.6;color:#34404F">We build platforms people use every day, then install them, train your staff and stay on hand to support them.</p>
 </div>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px">
-<div style="background:#ffffff;border:1px solid #DCE3EC;border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:12px">
-<div style="width:48px;height:48px;border-radius:12px;background:#EAF1FE;display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1E6BF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"></path><path d="M9 12l2 2 4-4"></path></svg></div>
+<div class="lift" style="background:#E3F4E8;border-radius:22px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<div style="width:52px;height:52px;border-radius:16px;background:#16803C;display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"></path><path d="M9 12l2 2 4-4"></path></svg></div>
 <h3 style="margin:0;font-family:Montserrat,Arial,sans-serif;font-size:20px;color:#0B1B33">Poviz Estate</h3>
 <p style="margin:0;font-size:16px;line-height:1.6;color:#34404F">Smart gate access, visitor control, service-charge collection and staff management for residential estates.</p>
-<a href="#contact" style="margin-top:auto;font-weight:600;font-size:15px;text-decoration:none">Explore estate platform →</a></div>
-<div style="background:#ffffff;border:1px solid #DCE3EC;border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:12px">
-<div style="width:48px;height:48px;border-radius:12px;background:#EAF1FE;display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1E6BF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9l1.5-5h13L20 9"></path><path d="M4 9h16v11H4z"></path><path d="M10 20v-6h4v6"></path></svg></div>
+<a href="#contact" style="margin-top:auto;font-weight:600;font-size:15px;text-decoration:none;color:#16803C">Explore estate platform →</a></div>
+<div class="lift" style="background:#E8F0FE;border-radius:22px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<div style="width:52px;height:52px;border-radius:16px;background:#1E6BF0;display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9l1.5-5h13L20 9"></path><path d="M4 9h16v11H4z"></path><path d="M10 20v-6h4v6"></path></svg></div>
 <h3 style="margin:0;font-family:Montserrat,Arial,sans-serif;font-size:20px;color:#0B1B33">Poviz Hub</h3>
 <p style="margin:0;font-size:16px;line-height:1.6;color:#34404F">Point of sale, stock, staff and multi-outlet reporting for restaurants, cafés and retail businesses.</p>
-<a href="#contact" style="margin-top:auto;font-weight:600;font-size:15px;text-decoration:none">Explore business platform →</a></div>
-<div style="background:#ffffff;border:1px solid #DCE3EC;border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:12px">
-<div style="width:48px;height:48px;border-radius:12px;background:#EAF1FE;display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1E6BF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8l-4 4 4 4"></path><path d="M16 8l4 4-4 4"></path><path d="M13 5l-2 14"></path></svg></div>
+<a href="#contact" style="margin-top:auto;font-weight:600;font-size:15px;text-decoration:none;color:#1E6BF0">Explore business platform →</a></div>
+<div class="lift" style="background:#F0EBFF;border-radius:22px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<div style="width:52px;height:52px;border-radius:16px;background:#6B3FD4;display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8l-4 4 4 4"></path><path d="M16 8l4 4-4 4"></path><path d="M13 5l-2 14"></path></svg></div>
 <h3 style="margin:0;font-family:Montserrat,Arial,sans-serif;font-size:20px;color:#0B1B33">Web and app development</h3>
 <p style="margin:0;font-size:16px;line-height:1.6;color:#34404F">Websites, mobile apps and custom systems built around how your organisation actually works.</p>
-<a href="#contact" style="margin-top:auto;font-weight:600;font-size:15px;text-decoration:none">Start a project →</a></div>
-<div style="background:#ffffff;border:1px solid #DCE3EC;border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:12px">
-<div style="width:48px;height:48px;border-radius:12px;background:#EAF1FE;display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1E6BF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10"></path><path d="M10 20V4"></path><path d="M16 20v-7"></path><path d="M22 20H2"></path></svg></div>
+<a href="#contact" style="margin-top:auto;font-weight:600;font-size:15px;text-decoration:none;color:#6B3FD4">Start a project →</a></div>
+<div class="lift" style="background:#FFF1E0;border-radius:22px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<div style="width:52px;height:52px;border-radius:16px;background:#D9630B;display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10"></path><path d="M10 20V4"></path><path d="M16 20v-7"></path><path d="M22 20H2"></path></svg></div>
 <h3 style="margin:0;font-family:Montserrat,Arial,sans-serif;font-size:20px;color:#0B1B33">Data and insights</h3>
 <p style="margin:0;font-size:16px;line-height:1.6;color:#34404F">Dashboards and reports that turn your records into clear decisions for management.</p>
-<a href="#contact" style="margin-top:auto;font-weight:600;font-size:15px;text-decoration:none">Talk to us →</a></div>
+<a href="#contact" style="margin-top:auto;font-weight:600;font-size:15px;text-decoration:none;color:#D9630B">Talk to us →</a></div>
 </div>
 </div>
 </section>
 
-<section id="estates" style="background:#ffffff">
+<section id="estates" style="background:linear-gradient(135deg,#EAF8EF 0%,#EAF1FE 100%)">
 <div style="max-width:1200px;margin:0 auto;padding:88px 24px;display:flex;flex-wrap:wrap;gap:56px;align-items:flex-start">
 <div style="flex:1 1 420px;display:flex;flex-direction:column;gap:16px">
 <div style="font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:13px;letter-spacing:2.5px;color:#1FA54A">POVIZ ESTATE</div>
 <h2 style="margin:0;font-family:Montserrat,Arial,sans-serif;font-size:38px;line-height:1.15">Know who is in your estate, and who is leaving</h2>
 <p style="margin:0;font-size:18px;line-height:1.6;color:#34404F">A complete platform for gated estates: residents, visitors, security guards and the executive committee, all connected.</p>
-<a href="#contact" style="align-self:flex-start;background:#0B1B33;color:#ffffff;text-decoration:none;padding:15px 24px;border-radius:12px;font-weight:700;font-size:16px;margin-top:8px">Book an estate demo</a>
+<a href="#contact" style="align-self:flex-start;background:#0B1B33;color:#ffffff;text-decoration:none;padding:15px 26px;border-radius:999px;font-weight:700;font-size:16px;margin-top:8px">Book an estate demo</a>
 </div>
 <div style="flex:1 1 520px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px">
-<div style="display:flex;gap:12px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1FA54A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M5 12l5 5L20 7"></path></svg><div><div style="font-weight:700;font-size:17px;color:#0B1B33">Resident access</div><div style="font-size:15px;line-height:1.6;color:#34404F">Car sticker, card or code at the gate.</div></div></div>
-<div style="display:flex;gap:12px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1FA54A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M5 12l5 5L20 7"></path></svg><div><div style="font-weight:700;font-size:17px;color:#0B1B33">Visitor codes</div><div style="font-size:15px;line-height:1.6;color:#34404F">One-time codes sent by WhatsApp or SMS by the host.</div></div></div>
-<div style="display:flex;gap:12px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1FA54A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M5 12l5 5L20 7"></path></svg><div><div style="font-weight:700;font-size:17px;color:#0B1B33">Secured exits</div><div style="font-size:15px;line-height:1.6;color:#34404F">Every exit confirmed by the guard on duty.</div></div></div>
-<div style="display:flex;gap:12px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1FA54A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M5 12l5 5L20 7"></path></svg><div><div style="font-weight:700;font-size:17px;color:#0B1B33">Emergency lockdown</div><div style="font-size:15px;line-height:1.6;color:#34404F">Freeze every gate at once, with resident panic alerts.</div></div></div>
-<div style="display:flex;gap:12px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1FA54A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M5 12l5 5L20 7"></path></svg><div><div style="font-weight:700;font-size:17px;color:#0B1B33">Service charges</div><div style="font-size:15px;line-height:1.6;color:#34404F">Dues paid in the app, straight into the estate's account.</div></div></div>
-<div style="display:flex;gap:12px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1FA54A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M5 12l5 5L20 7"></path></svg><div><div style="font-weight:700;font-size:17px;color:#0B1B33">Staff and reports</div><div style="font-size:15px;line-height:1.6;color:#34404F">Guard rosters, attendance and monthly committee reports.</div></div></div>
+<div style="display:flex;gap:12px"><div style="flex:none;width:38px;height:38px;border-radius:12px;background:#16803C;display:flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></div><div><div style="font-weight:700;font-size:17px;color:#0B1B33">Resident access</div><div style="font-size:15px;line-height:1.6;color:#34404F">Car sticker, card or code at the gate.</div></div></div>
+<div style="display:flex;gap:12px"><div style="flex:none;width:38px;height:38px;border-radius:12px;background:#1E6BF0;display:flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></div><div><div style="font-weight:700;font-size:17px;color:#0B1B33">Visitor codes</div><div style="font-size:15px;line-height:1.6;color:#34404F">One-time codes sent by WhatsApp or SMS by the host.</div></div></div>
+<div style="display:flex;gap:12px"><div style="flex:none;width:38px;height:38px;border-radius:12px;background:#D9630B;display:flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></div><div><div style="font-weight:700;font-size:17px;color:#0B1B33">Secured exits</div><div style="font-size:15px;line-height:1.6;color:#34404F">Every exit confirmed by the guard on duty.</div></div></div>
+<div style="display:flex;gap:12px"><div style="flex:none;width:38px;height:38px;border-radius:12px;background:#B42323;display:flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></div><div><div style="font-weight:700;font-size:17px;color:#0B1B33">Emergency lockdown</div><div style="font-size:15px;line-height:1.6;color:#34404F">Freeze every gate at once, with resident panic alerts.</div></div></div>
+<div style="display:flex;gap:12px"><div style="flex:none;width:38px;height:38px;border-radius:12px;background:#6B3FD4;display:flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></div><div><div style="font-weight:700;font-size:17px;color:#0B1B33">Service charges</div><div style="font-size:15px;line-height:1.6;color:#34404F">Dues paid in the app, straight into the estate's account.</div></div></div>
+<div style="display:flex;gap:12px"><div style="flex:none;width:38px;height:38px;border-radius:12px;background:#0E8A8A;display:flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></div><div><div style="font-weight:700;font-size:17px;color:#0B1B33">Staff and reports</div><div style="font-size:15px;line-height:1.6;color:#34404F">Guard rosters, attendance and monthly committee reports.</div></div></div>
 </div>
 </div>
 </section>
 
-<section id="businesses" style="background:#0B1B33;color:#ffffff">
+<section id="businesses" style="background:linear-gradient(135deg,#1E6BF0 0%,#0B1B33 100%);color:#ffffff">
 <div style="max-width:1200px;margin:0 auto;padding:80px 24px;display:flex;flex-wrap:wrap;gap:48px;align-items:center">
 <div style="flex:1 1 520px;display:flex;flex-direction:column;gap:14px">
 <div style="font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:13px;letter-spacing:2.5px;color:#7FB2FF">POVIZ HUB · BUILT AND PROVEN</div>
@@ -235,9 +254,9 @@ input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset
 <p style="margin:0;font-size:18px;line-height:1.6;color:#C9D6EA">Poviz Hub grew out of Vita Hub, the system we built and run for Vita Fruity's outlets: sales, kitchen tickets, stock, staff shifts and reports on the owner's phone.</p>
 </div>
 <div style="flex:1 1 360px;display:flex;flex-direction:column;gap:12px">
-<div style="background:#13284A;border-radius:14px;padding:18px 20px;font-size:16px;line-height:1.5">Fast billing and receipts at every outlet</div>
-<div style="background:#13284A;border-radius:14px;padding:18px 20px;font-size:16px;line-height:1.5">Stock, staff and shifts in one place</div>
-<div style="background:#13284A;border-radius:14px;padding:18px 20px;font-size:16px;line-height:1.5">Live sales reports for owners and managers</div>
+<div style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:16px;padding:18px 20px;font-size:16px;line-height:1.5;font-weight:600">Fast billing and receipts at every outlet</div>
+<div style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:16px;padding:18px 20px;font-size:16px;line-height:1.5;font-weight:600">Stock, staff and shifts in one place</div>
+<div style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:16px;padding:18px 20px;font-size:16px;line-height:1.5;font-weight:600">Live sales reports for owners and managers</div>
 </div>
 </div>
 </section>
@@ -249,11 +268,32 @@ input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset
 <h2 style="margin:0;font-family:Montserrat,Arial,sans-serif;font-size:38px;line-height:1.15">From first meeting to daily use</h2>
 </div>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px">
-<div style="display:flex;flex-direction:column;gap:10px"><div style="width:44px;height:44px;border-radius:22px;background:#0B1B33;color:#ffffff;font-family:Montserrat,Arial,sans-serif;font-weight:800;display:flex;align-items:center;justify-content:center">1</div><div style="font-weight:700;font-size:18px;color:#0B1B33">Understand</div><div style="font-size:15px;line-height:1.6;color:#34404F">We visit, listen and map how your estate or business really works.</div></div>
-<div style="display:flex;flex-direction:column;gap:10px"><div style="width:44px;height:44px;border-radius:22px;background:#0B1B33;color:#ffffff;font-family:Montserrat,Arial,sans-serif;font-weight:800;display:flex;align-items:center;justify-content:center">2</div><div style="font-weight:700;font-size:18px;color:#0B1B33">Build</div><div style="font-size:15px;line-height:1.6;color:#34404F">We configure and build the platform around your needs, with a live demo early.</div></div>
-<div style="display:flex;flex-direction:column;gap:10px"><div style="width:44px;height:44px;border-radius:22px;background:#0B1B33;color:#ffffff;font-family:Montserrat,Arial,sans-serif;font-weight:800;display:flex;align-items:center;justify-content:center">3</div><div style="font-weight:700;font-size:18px;color:#0B1B33">Install and train</div><div style="font-size:15px;line-height:1.6;color:#34404F">We install the equipment, set up users and train your staff on site.</div></div>
-<div style="display:flex;flex-direction:column;gap:10px"><div style="width:44px;height:44px;border-radius:22px;background:#0B1B33;color:#ffffff;font-family:Montserrat,Arial,sans-serif;font-weight:800;display:flex;align-items:center;justify-content:center">4</div><div style="font-weight:700;font-size:18px;color:#0B1B33">Support</div><div style="font-size:15px;line-height:1.6;color:#34404F">A pilot period, then ongoing updates and same-day local support.</div></div>
+<div style="display:flex;flex-direction:column;gap:10px"><div style="width:44px;height:44px;border-radius:22px;background:#1E6BF0;color:#ffffff;font-family:Montserrat,Arial,sans-serif;font-weight:800;display:flex;align-items:center;justify-content:center">1</div><div style="font-weight:700;font-size:18px;color:#0B1B33">Understand</div><div style="font-size:15px;line-height:1.6;color:#34404F">We visit, listen and map how your estate or business really works.</div></div>
+<div style="display:flex;flex-direction:column;gap:10px"><div style="width:44px;height:44px;border-radius:22px;background:#1FA54A;color:#ffffff;font-family:Montserrat,Arial,sans-serif;font-weight:800;display:flex;align-items:center;justify-content:center">2</div><div style="font-weight:700;font-size:18px;color:#0B1B33">Build</div><div style="font-size:15px;line-height:1.6;color:#34404F">We configure and build the platform around your needs, with a live demo early.</div></div>
+<div style="display:flex;flex-direction:column;gap:10px"><div style="width:44px;height:44px;border-radius:22px;background:#D9630B;color:#ffffff;font-family:Montserrat,Arial,sans-serif;font-weight:800;display:flex;align-items:center;justify-content:center">3</div><div style="font-weight:700;font-size:18px;color:#0B1B33">Install and train</div><div style="font-size:15px;line-height:1.6;color:#34404F">We install the equipment, set up users and train your staff on site.</div></div>
+<div style="display:flex;flex-direction:column;gap:10px"><div style="width:44px;height:44px;border-radius:22px;background:#6B3FD4;color:#ffffff;font-family:Montserrat,Arial,sans-serif;font-weight:800;display:flex;align-items:center;justify-content:center">4</div><div style="font-weight:700;font-size:18px;color:#0B1B33">Support</div><div style="font-size:15px;line-height:1.6;color:#34404F">A pilot period, then ongoing updates and same-day local support.</div></div>
 </div>
+</div>
+</section>
+
+<section style="background:#F0EBFF">
+<div style="max-width:1200px;margin:0 auto;padding:72px 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px">
+<div style="display:flex;flex-direction:column;gap:10px;grid-column:1/-1;max-width:720px;margin-bottom:8px"><div style="font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:13px;letter-spacing:2.5px;color:#6B3FD4">BUILT TO BE TRUSTED</div><h2 style="margin:0;font-family:Montserrat,Arial,sans-serif;font-size:36px;line-height:1.15">Your data and your money stay safe</h2></div>
+<div style="background:#ffffff;border-radius:20px;padding:24px"><div style="font-size:28px">🔒</div><div style="font-weight:800;font-size:18px;margin:8px 0 6px 0">Data protection</div><div style="font-size:15px;line-height:1.6;color:#34404F">Designed to follow the Nigeria Data Protection Act, with access by role.</div></div>
+<div style="background:#ffffff;border-radius:20px;padding:24px"><div style="font-size:28px">💳</div><div style="font-weight:800;font-size:18px;margin:8px 0 6px 0">Payments go straight to you</div><div style="font-size:15px;line-height:1.6;color:#34404F">Dues and sales are paid through Paystack or Flutterwave directly into your own account.</div></div>
+<div style="background:#ffffff;border-radius:20px;padding:24px"><div style="font-size:28px">⚡</div><div style="font-weight:800;font-size:18px;margin:8px 0 6px 0">Built for power cuts and poor network</div><div style="font-size:15px;line-height:1.6;color:#34404F">Backup power plans and offline mode keep the gate and the till running.</div></div>
+</div>
+</section>
+
+<section style="background:#F7FAFF">
+<div style="max-width:900px;margin:0 auto;padding:80px 24px;display:flex;flex-direction:column;gap:14px">
+<div style="font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:13px;letter-spacing:2.5px;color:#1E6BF0">QUESTIONS</div>
+<h2 style="margin:0 0 10px 0;font-family:Montserrat,Arial,sans-serif;font-size:36px;line-height:1.15">Frequently asked questions</h2>
+<details><summary>Do residents or staff need to download an app?</summary><p>No app store needed. Our platforms open from a link on any smartphone and can be added to the home screen like a normal app.</p></details>
+<details><summary>Can it work with the gate equipment we already have?</summary><p>Often, yes. We assess your existing barriers, readers and cards during the site visit and reuse what works.</p></details>
+<details><summary>What happens when there is no light or network?</summary><p>Each gate has backup power, and the guard tablet keeps working offline, syncing as soon as the network returns.</p></details>
+<details><summary>How long does setup take?</summary><p>Software can be live within weeks. Hardware installation depends on the site and is agreed in a clear plan before work starts.</p></details>
+<details><summary>Who supports us after installation?</summary><p>Our team in Warri provides training, updates and same-day local support.</p></details>
 </div>
 </section>
 
@@ -268,6 +308,13 @@ input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset
 <p style="margin:0;font-size:17px;line-height:1.7;color:#34404F">Poviz Solutions is led by Alordiah Ovie, an electrical and electronic engineer with a Master's in Data Science (First Class) and doctoral study in AI and Machine Learning. We combine practical engineering with modern software to build systems that work in Nigerian conditions: unreliable power, patchy networks and real people on the ground.</p>
 <p style="margin:0;font-size:17px;line-height:1.7;color:#34404F">We are based in Warri, Delta State, and work with estates, restaurants, retailers and organisations across the region.</p>
 </div>
+</div>
+</section>
+
+<section style="background:linear-gradient(90deg,#1FA54A,#139BD0,#1E6BF0);color:#ffffff">
+<div style="max-width:1200px;margin:0 auto;padding:56px 24px;display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:center">
+<div style="font-family:Montserrat,Arial,sans-serif;font-weight:800;font-size:32px;line-height:1.2;max-width:640px">See it working on your phone in 30 minutes</div>
+<a href="#contact" class="pill" style="background:#ffffff;color:#0B1B33;text-decoration:none;padding:16px 30px;font-weight:800;font-size:16px">Book a free demo →</a>
 </div>
 </section>
 
@@ -289,7 +336,7 @@ input:focus,select:focus,textarea:focus{outline:3px solid #9CC0FF;outline-offset
 <div style="display:flex;flex-direction:column;gap:6px"><label for="ctype" style="font-size:14px;font-weight:600;color:#34404F">I am interested in</label>
 <select id="ctype" name="interest" style="height:48px;border-radius:10px;border:1px solid #C6D1DE;padding:0 12px;font-family:Inter,Arial,sans-serif;font-size:15px;color:#0B1B33;background:#ffffff"><option>Poviz Estate (estate security and management)</option><option>Poviz Guard (security companies)</option><option>MinuteDesk (executive office)</option><option>Poviz Hub (business platform)</option><option>A coming-soon product (join the waitlist)</option><option>Website or app</option><option>Data and dashboards</option></select></div>
 <div style="display:flex;flex-direction:column;gap:6px"><label for="cmsg" style="font-size:14px;font-weight:600;color:#34404F">Message</label><textarea id="cmsg" name="message" rows="4" placeholder="Tell us a little about your estate or business" style="border-radius:10px;border:1px solid #C6D1DE;padding:12px 14px;font-family:Inter,Arial,sans-serif;font-size:15px;color:#0B1B33;resize:vertical"></textarea></div>
-<button type="submit" style="height:52px;border-radius:12px;border:none;background:#1FA54A;color:#ffffff;font-family:Inter,Arial,sans-serif;font-size:16px;font-weight:700">Request my demo</button>
+<button type="submit" style="height:52px;border-radius:999px;border:none;background:#1FA54A;color:#ffffff;font-family:Inter,Arial,sans-serif;font-size:16px;font-weight:700">Request my demo</button>
 </form>
 </div>
 </section>
