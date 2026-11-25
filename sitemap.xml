@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://povizsolutions.com/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://povizsolutions.com/</loc></url>
+<url><loc>https://povizsolutions.com/pos/</loc></url>
+<url><loc>https://povizsolutions.com/estate/</loc></url>
+<url><loc>https://povizsolutions.com/guard/</loc></url>
+<url><loc>https://povizsolutions.com/minutedesk/</loc></url>
+<url><loc>https://povizsolutions.com/solutions/</loc></url>
+<url><loc>https://povizsolutions.com/websites/</loc></url>
+<url><loc>https://povizsolutions.com/data/</loc></url>
+<url><loc>https://povizsolutions.com/work/</loc></url>
+<url><loc>https://povizsolutions.com/about/</loc></url>
+<url><loc>https://povizsolutions.com/contact/</loc></url>
+</urlset>
