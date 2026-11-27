@@ -247,3 +247,6 @@ form.form{background:var(--white);border:1px solid var(--line);border-radius:var
 .foot-grid a:hover{color:var(--white);text-decoration:underline}
 .foot-grid p{margin-top:14px;max-width:320px;line-height:1.6}
 .foot-base{border-top:1px solid var(--line-dark);margin-top:40px;padding-top:20px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+
+.hero-note{margin:14px 0 0;font-size:14px;opacity:.85}
+.hero-note a{color:inherit;font-weight:600}
